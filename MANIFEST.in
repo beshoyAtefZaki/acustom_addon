@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include acustom_addon *.css
+recursive-include acustom_addon *.csv
+recursive-include acustom_addon *.html
+recursive-include acustom_addon *.ico
+recursive-include acustom_addon *.js
+recursive-include acustom_addon *.json
+recursive-include acustom_addon *.md
+recursive-include acustom_addon *.png
+recursive-include acustom_addon *.py
+recursive-include acustom_addon *.svg
+recursive-include acustom_addon *.txt
+recursive-exclude acustom_addon *.pyc
